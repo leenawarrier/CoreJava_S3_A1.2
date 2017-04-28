@@ -1,0 +1,11 @@
+class example {
+int x; int y;
+String name;
+public static void main(String args[]) {
+example pnt = new example();
+System.out.println ("pnt is " + pnt.name + " " + pnt.x + " " + pnt.y);
+} }
+
+here the instance variables (inside the class) are x,y,name. Since they are instance variables they hace default values assigned like 0 for int,float etc and NULL for string.
+Hence the output would be : 
+d. The program prints pnt is null 0 0. 
